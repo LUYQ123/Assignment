@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: server
-          image: wuyuhulu/microservice:server
+          image: nicolehuang/microservice:server
           ports:
             - containerPort: 3000

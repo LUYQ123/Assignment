@@ -2,7 +2,7 @@ version: '3'
 services:
   server:
     build: ./server
-    image: wuyuhulu/microservice:server
+    image: nicolehuang/microservice:server
     ports:
       - "3000:3000"
     depends_on:
@@ -11,11 +11,11 @@ services:
       - product-price-service
   hello-world-service:
     build: ./hello-world-service
-    image: wuyuhulu/microservice:hello
+    image: nicolehuang/microservice:hello
   product-descp-service:
     build: ./product-descp-service
-    image: wuyuhulu/microservice:productdescp
+    image: nicolehuang/microservice:productdescp
   product-price-service:
     build: ./product-price-service
-    image: wuyuhulu/microservice:productprice
+    image: nicolehuang/microservice:productprice
 

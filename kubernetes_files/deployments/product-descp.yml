@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: product-descp
-          image: wuyuhulu/microservice:productdescp
+          image: nicolehuang/microservice:productdescp
           ports:
             - containerPort: 9002

@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: hello-world
-          image: wuyuhulu/microservice:hello
+          image: nicolehuang/microservice:hello
           ports:
             - containerPort: 9001
